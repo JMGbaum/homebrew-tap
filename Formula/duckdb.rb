@@ -8,6 +8,7 @@ class Duckdb < Formula
 
   bottle do
     rebuild 1
+    root_url "https://github.com/CampusESP/duckdb/releases/download/duckdb-1.5-preview"
     sha256 cellar: :any, arm64_sequoia: "e855ae4124b1319ac1fa157173725d21aba04de12e923ea47874266a7a0f8956"
   end
 
