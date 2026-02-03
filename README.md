@@ -2,14 +2,14 @@
 
 ## How do I install these formulae?
 
-`brew install jmgbaum/duckdb/<formula>`
+`brew install jmgbaum/tap/<formula>`
 
-Or `brew tap jmgbaum/duckdb` and then `brew install <formula>`.
+Or `brew tap jmgbaum/tap` and then `brew install <formula>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
-tap "jmgbaum/duckdb"
+tap "jmgbaum/tap"
 brew "<formula>"
 ```
 
