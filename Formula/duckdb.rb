@@ -6,6 +6,11 @@ class Duckdb < Formula
       revision: "584c07d68d9e897767fd0f659cc096beb89a04e1"
   license "MIT"
 
+  bottle do
+    rebuild 1
+    sha256 cellar: :any, arm64_sequoia: "e855ae4124b1319ac1fa157173725d21aba04de12e923ea47874266a7a0f8956"
+  end
+
   depends_on "cmake" => [:build, :test]
   uses_from_macos "python" => :build
 
